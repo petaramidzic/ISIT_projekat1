@@ -19,15 +19,8 @@
 <!ELEMENT Kompanija (Naziv, Adresa, Telefon, Email+)>
 <!ELEMENT Naziv (#PCDATA)>
 
-
 <!ATTLIST Osoba JMBG ID #REQUIRED>
 <!ATTLIST Adresa status (privremena|stalna) "privremena">
-<!ATTLIST Telefon vrsta (mobilni|fiksni) #REQUIRED>
-<!ATTLIST Email vrsta (privatni|sluzbeni) #REQUIRED>
+<!ATTLIST Telefon tip (mobilni|fiksni) #REQUIRED>
+<!ATTLIST Email tip (privatni|sluzbeni) #REQUIRED>
 <!ATTLIST Kompanija PIB ID #REQUIRED>
-
-
-
-
-
-
