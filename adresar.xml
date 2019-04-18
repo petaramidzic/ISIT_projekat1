@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<Adresar>
+  <Osoba JMBG="O1005978710242">
+    <Puno_Ime>
+      <Ime>Petar</Ime>
+      <Srednje_Ime>Bogosav</Srednje_Ime>
+      <Prezime>Amidzic</Prezime>
+    </Puno_Ime>
+    <Datum_Rodjenja>
+      <Dan>10</Dan>
+      <Mesec>5</Mesec>
+      <Godina>1978</Godina>
+    </Datum_Rodjenja>
+    <Adresa>
+      <Ulica>Radnicka</Ulica>
+      <Broj>3</Broj>
+      <Grad>Beograd</Grad>
+      <Drzava>Srbija</Drzava>      
+    </Adresa>
+    <Telefon vrsta="mobilni">0643317531</Telefon>
+    <Email vrsta="privatni">petar.amidzic@gmail.com</Email>
+	<Email vrsta="privatni">neka.adresa@gmail.com</Email>	
+  </Osoba>
+  <Osoba JMBG="O110520123456434">
+    <Puno_Ime>
+      <Ime>Ana</Ime>
+      <Srednje_Ime>Petar</Srednje_Ime>
+      <Prezime>Amidzic</Prezime>
+    </Puno_Ime>
+    <Datum_Rodjenja>
+      <Dan>11</Dan>
+      <Mesec>5</Mesec>
+      <Godina>2012</Godina>      
+    </Datum_Rodjenja>
+    <Adresa>
+      <Ulica>Borivoja Stevanovica</Ulica>
+      <Broj>12v</Broj>
+      <Grad>Beograd</Grad>
+      <Drzava>Srbija</Drzava>
+    </Adresa>
+    <Telefon vrsta="mobilni">064123879</Telefon>
+    <Email vrsta="privatni">ana.amidzic@gmail.com</Email>
+  </Osoba>
+  <Osoba JMBG="O4562869453">
+    <Puno_Ime>
+      <Ime>Milan</Ime>
+      <Prezime>Petrovic</Prezime>
+    </Puno_Ime>
+    <Datum_Rodjenja>
+      <Dan>24</Dan>
+      <Mesec>11</Mesec>
+      <Godina>1954</Godina>
+    </Datum_Rodjenja>
+    <Adresa>
+      <Ulica>Beogradska</Ulica>
+      <Broj>1</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon vrsta="fiksni">01156789412</Telefon>
+    <Email vrsta="sluzbeni">mp@gmail.com</Email>
+  </Osoba>  
+  <Kompanija PIB="K3234578">
+    <Naziv>Diners Club INT. Belgrade</Naziv>
+    <Adresa>
+      <Ulica>Njegoseva</Ulica>
+      <Broj>72</Broj>
+      <Grad>Beograd</Grad>
+      <Drzava>Srbija</Drzava>      
+    </Adresa>
+    <Telefon vrsta="fiksni">123456</Telefon>
+    <Email vrsta="sluzbeni">064123789</Email>
+  </Kompanija>
+  <Kompanija PIB="K156389564">
+    <Naziv>Protekta</Naziv>
+    <Adresa>
+      <Ulica>Koste Nadja</Ulica>
+      <Broj>52</Broj>
+      <Grad>Beograd</Grad>
+      <Drzava>Srbija</Drzava>
+    </Adresa>
+    <Telefon vrsta="mobilni">0631789456</Telefon>
+    <Email vrsta="privatni">protekta@yahoo.com</Email>
+  </Kompanija>
+  <Kompanija PIB="K1369643289">
+    <Naziv>Tehnomanija</Naziv>
+    <Adresa>
+      <Ulica>Durmitorska</Ulica>
+      <Broj>23</Broj>
+      <Grad>Beograd</Grad>
+      <Drzava>Srbija</Drzava>
+    </Adresa>
+    <Telefon vrsta="mobilni">0647965412</Telefon>
+    <Email vrsta="sluzbeni">thn@tehnomanija.com</Email>
+	<Email vrsta="sluzbeni">office@tehnomanija.com</Email>
+  </Kompanija>  
+</Adresar>
+
+
+
+
