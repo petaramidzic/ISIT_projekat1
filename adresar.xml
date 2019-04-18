@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Adresar SYSTEM "adresar.dtd">
 
 <Adresar xmlns="http://viser.edu.rs/ISIT"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -99,3 +100,4 @@
     <Email tip="sluzbeni">office@tehnomanija.com</Email>
   </Kompanija>
 </Adresar>
+
