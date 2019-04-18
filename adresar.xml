@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Adresar>
+<Adresar xmlns="http://viser.edu.rs/ISIT"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://viser.edu.rs/ISIT adresar.xsd">
+
   <Osoba JMBG="O1005978710242">
-    <Puno_Ime>
+    <Puno_Ime>      
       <Ime>Petar</Ime>
       <Srednje_Ime>Bogosav</Srednje_Ime>
       <Prezime>Amidzic</Prezime>
@@ -18,9 +21,9 @@
       <Grad>Beograd</Grad>
       <Drzava>Srbija</Drzava>
     </Adresa>
-    <Telefon vrsta="mobilni">0643317531</Telefon>
-    <Email vrsta="privatni">petar.amidzic@gmail.com</Email>
-    <Email vrsta="privatni">neka.adresa@gmail.com</Email>
+    <Telefon tip="mobilni">064/331-531</Telefon>
+    <Email tip="privatni">petar.amidzic@gmail.com</Email>
+    <Email tip="privatni">neka.adresa@gmail.com</Email>
   </Osoba>
   <Osoba JMBG="O110520123456434">
     <Puno_Ime>
@@ -35,13 +38,13 @@
     </Datum_Rodjenja>
     <Adresa>
       <Ulica>Borivoja Stevanovica</Ulica>
-      <Broj>12v</Broj>
+      <Broj>12</Broj>
       <Grad>Beograd</Grad>
       <Drzava>Srbija</Drzava>
     </Adresa>
-    <Telefon vrsta="mobilni">064123879</Telefon>
-    <Email vrsta="privatni">ana.amidzic@gmail.com</Email>
-    <Email vrsta="sluzbeni">ana.office@gmail.com</Email>
+    <Telefon tip="mobilni">064/123-879</Telefon>
+    <Email tip="privatni">ana.amidzic@gmail.com</Email>
+    <Email tip="sluzbeni">ana.office@gmail.com</Email>
   </Osoba>
   <Osoba JMBG="O4562869453">
     <Puno_Ime>
@@ -58,8 +61,8 @@
       <Broj>1</Broj>
       <Grad>Beograd</Grad>
     </Adresa>
-    <Telefon vrsta="fiksni">01156789412</Telefon>
-    <Email vrsta="sluzbeni">mp@gmail.com</Email>
+    <Telefon tip="fiksni">011/567-894</Telefon>
+    <Email tip="sluzbeni">mp@gmail.com</Email>
   </Osoba>
   <Kompanija PIB="K3234578">
     <Naziv>Diners Club INT. Belgrade</Naziv>
@@ -69,8 +72,8 @@
       <Grad>Beograd</Grad>
       <Drzava>Srbija</Drzava>
     </Adresa>
-    <Telefon vrsta="fiksni">123456</Telefon>
-    <Email vrsta="sluzbeni">064123789</Email>
+    <Telefon tip="fiksni">065/123-456</Telefon>
+    <Email tip="sluzbeni">office@diners.rs</Email>
   </Kompanija>
   <Kompanija PIB="K156389564">
     <Naziv>Protekta</Naziv>
@@ -80,8 +83,8 @@
       <Grad>Beograd</Grad>
       <Drzava>Srbija</Drzava>
     </Adresa>
-    <Telefon vrsta="mobilni">0631789456</Telefon>
-    <Email vrsta="privatni">protekta@yahoo.com</Email>
+    <Telefon tip="mobilni">063/178-456</Telefon>
+    <Email tip="privatni">protekta@yahoo.com</Email>
   </Kompanija>
   <Kompanija PIB="K1369643289">
     <Naziv>Tehnomanija</Naziv>
@@ -91,12 +94,8 @@
       <Grad>Beograd</Grad>
       <Drzava>Srbija</Drzava>
     </Adresa>
-    <Telefon vrsta="mobilni">0647965412</Telefon>
-    <Email vrsta="sluzbeni">thn@tehnomanija.com</Email>
-    <Email vrsta="sluzbeni">office@tehnomanija.com</Email>
+    <Telefon tip="mobilni">064/796-412</Telefon>
+    <Email tip="sluzbeni">thn@tehnomanija.com</Email>
+    <Email tip="sluzbeni">office@tehnomanija.com</Email>
   </Kompanija>
 </Adresar>
-
-
-
-
