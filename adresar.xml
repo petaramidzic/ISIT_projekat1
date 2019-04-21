@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Adresar SYSTEM "adresar.dtd">
+<?xml-stylesheet href="adresar.xslt" type="text/xsl"?>
+
 
 <Adresar xmlns="http://viser.edu.rs/ISIT"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -16,7 +18,7 @@
       <Mesec>5</Mesec>
       <Godina>1978</Godina>
     </Datum_Rodjenja>
-    <Adresa>
+    <Adresa tip="stalna">
       <Ulica>Radnicka</Ulica>
       <Broj>3</Broj>
       <Grad>Beograd</Grad>
@@ -25,6 +27,7 @@
     <Telefon tip="mobilni">064/331-531</Telefon>
     <Email tip="privatni">petar.amidzic@gmail.com</Email>
     <Email tip="privatni">neka.adresa@gmail.com</Email>
+    <Email tip="sluzbeni">it@diners.rs</Email>
   </Osoba>
   <Osoba JMBG="O110520123456434">
     <Puno_Ime>
@@ -46,21 +49,23 @@
     <Telefon tip="mobilni">064/123-879</Telefon>
     <Email tip="privatni">ana.amidzic@gmail.com</Email>
     <Email tip="sluzbeni">ana.office@gmail.com</Email>
+    <Email tip="sluzbeni">banana@gmail.com</Email>    
   </Osoba>
   <Osoba JMBG="O4562869453">
     <Puno_Ime>
       <Ime>Milan</Ime>
-      <Prezime>Petrovic</Prezime>
+      <Prezime>Mitrovic</Prezime>
     </Puno_Ime>
     <Datum_Rodjenja>
       <Dan>24</Dan>
       <Mesec>11</Mesec>
-      <Godina>1954</Godina>
+      <Godina>1991</Godina>
     </Datum_Rodjenja>
-    <Adresa>
+    <Adresa tip="stalna">
       <Ulica>Beogradska</Ulica>
       <Broj>1</Broj>
       <Grad>Beograd</Grad>
+      <Drzava>Srbija</Drzava>
     </Adresa>
     <Telefon tip="fiksni">011/567-894</Telefon>
     <Email tip="sluzbeni">mp@gmail.com</Email>
@@ -78,7 +83,7 @@
   </Kompanija>
   <Kompanija PIB="K156389564">
     <Naziv>Protekta</Naziv>
-    <Adresa>
+    <Adresa tip="stalna">
       <Ulica>Koste Nadja</Ulica>
       <Broj>52</Broj>
       <Grad>Beograd</Grad>
@@ -86,6 +91,8 @@
     </Adresa>
     <Telefon tip="mobilni">063/178-456</Telefon>
     <Email tip="privatni">protekta@yahoo.com</Email>
+    <Email tip="sluzbeni">office@yahoo.com</Email>
+    <Email tip="sluzbeni">neki.mail@yahoo.com</Email>
   </Kompanija>
   <Kompanija PIB="K1369643289">
     <Naziv>Tehnomanija</Naziv>
