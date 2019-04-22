@@ -61,8 +61,9 @@
                   <xsl:value-of select="adr:Datum_Rodjenja/adr:Godina"/> godine
                 </td>
                 <td>
-                  <xsl:value-of select ="adr:Adresa/adr:Ulica"/> br.
-                  <xsl:value-of select ="adr:Adresa/adr:Broj"/>
+                  <xsl:value-of select ="adr:Adresa/adr:Ulica"/>&#160;br.
+                  <xsl:value-of select ="adr:Adresa/adr:Broj"/> &#160;
+                  <xsl:value-of select="adr:Adresa/adr:Grad"/>
                 </td>
                 <td>
                   <xsl:value-of select ="adr:Adresa/adr:Drzava"/>
@@ -140,8 +141,8 @@
                   <xsl:value-of select="adr:Datum_Rodjenja/adr:Godina"/> godine
                 </td>
                 <td>
-                  <xsl:value-of select ="adr:Adresa/adr:Ulica"/> br.
-                  <xsl:value-of select ="adr:Adresa/adr:Broj"/>
+                  <xsl:value-of select ="adr:Adresa/adr:Ulica"/>&#160;br.
+                  <xsl:value-of select ="adr:Adresa/adr:Broj"/>                  
                 </td>
                 <td>
                   <xsl:value-of select ="adr:Adresa/adr:Drzava"/>
